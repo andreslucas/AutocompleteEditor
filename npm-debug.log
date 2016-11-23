@@ -1,0 +1,201 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/Users/alucas/.nvm/versions/v6.2.1/bin/node',
+1 verbose cli   '/Users/alucas/.nvm/versions/v6.2.1/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '—',
+1 verbose cli   'save',
+1 verbose cli   'draft-js',
+1 verbose cli   'react',
+1 verbose cli   'react-dom' ]
+2 info using npm@3.9.3
+3 info using node@v6.2.1
+4 error arg Argument starts with non-ascii dash, this is probably invalid: [ '—', 'save', 'draft-js', 'react', 'react-dom' ]
+5 silly loadCurrentTree Starting
+6 silly install loadCurrentTree
+7 silly install readLocalPackageData
+8 silly fetchPackageMetaData —
+9 silly fetchPackageMetaData save
+10 silly fetchPackageMetaData draft-js
+11 silly fetchPackageMetaData react
+12 silly fetchPackageMetaData react-dom
+13 silly fetchOtherPackageData —
+14 silly cache add args [ '—', null ]
+15 verbose cache add spec —
+16 silly fetchNamedPackageData save
+17 silly mapToRegistry name save
+18 silly mapToRegistry using default registry
+19 silly mapToRegistry registry https://registry.npmjs.org/
+20 silly mapToRegistry data Result {
+20 silly mapToRegistry   raw: 'save',
+20 silly mapToRegistry   scope: null,
+20 silly mapToRegistry   name: 'save',
+20 silly mapToRegistry   rawSpec: '',
+20 silly mapToRegistry   spec: 'latest',
+20 silly mapToRegistry   type: 'tag' }
+21 silly mapToRegistry uri https://registry.npmjs.org/save
+22 silly fetchNamedPackageData draft-js
+23 silly mapToRegistry name draft-js
+24 silly mapToRegistry using default registry
+25 silly mapToRegistry registry https://registry.npmjs.org/
+26 silly mapToRegistry data Result {
+26 silly mapToRegistry   raw: 'draft-js',
+26 silly mapToRegistry   scope: null,
+26 silly mapToRegistry   name: 'draft-js',
+26 silly mapToRegistry   rawSpec: '',
+26 silly mapToRegistry   spec: 'latest',
+26 silly mapToRegistry   type: 'tag' }
+27 silly mapToRegistry uri https://registry.npmjs.org/draft-js
+28 silly fetchNamedPackageData react
+29 silly mapToRegistry name react
+30 silly mapToRegistry using default registry
+31 silly mapToRegistry registry https://registry.npmjs.org/
+32 silly mapToRegistry data Result {
+32 silly mapToRegistry   raw: 'react',
+32 silly mapToRegistry   scope: null,
+32 silly mapToRegistry   name: 'react',
+32 silly mapToRegistry   rawSpec: '',
+32 silly mapToRegistry   spec: 'latest',
+32 silly mapToRegistry   type: 'tag' }
+33 silly mapToRegistry uri https://registry.npmjs.org/react
+34 silly fetchNamedPackageData react-dom
+35 silly mapToRegistry name react-dom
+36 silly mapToRegistry using default registry
+37 silly mapToRegistry registry https://registry.npmjs.org/
+38 silly mapToRegistry data Result {
+38 silly mapToRegistry   raw: 'react-dom',
+38 silly mapToRegistry   scope: null,
+38 silly mapToRegistry   name: 'react-dom',
+38 silly mapToRegistry   rawSpec: '',
+38 silly mapToRegistry   spec: 'latest',
+38 silly mapToRegistry   type: 'tag' }
+39 silly mapToRegistry uri https://registry.npmjs.org/react-dom
+40 silly cache add parsed spec Result {
+40 silly cache add   raw: '—',
+40 silly cache add   scope: null,
+40 silly cache add   name: null,
+40 silly cache add   rawSpec: '—',
+40 silly cache add   spec: '/Users/alucas/Code/Own/AutocompleteEditor/—',
+40 silly cache add   type: 'local' }
+41 verbose request uri https://registry.npmjs.org/save
+42 verbose request no auth needed
+43 info attempt registry request try #1 at 09:12:51
+44 verbose request id 342da5c85ba2298b
+45 http request GET https://registry.npmjs.org/save
+46 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+47 error addLocal Could not install /Users/alucas/Code/Own/AutocompleteEditor/—
+48 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open '/Users/alucas/Code/Own/AutocompleteEditor/—'
+48 silly fetchPackageMetaData     at Error (native)
+48 silly fetchPackageMetaData  error for — { Error: ENOENT: no such file or directory, open '/Users/alucas/Code/Own/AutocompleteEditor/—'
+48 silly fetchPackageMetaData     at Error (native)
+48 silly fetchPackageMetaData   errno: -2,
+48 silly fetchPackageMetaData   code: 'ENOENT',
+48 silly fetchPackageMetaData   syscall: 'open',
+48 silly fetchPackageMetaData   path: '/Users/alucas/Code/Own/AutocompleteEditor/—' }
+49 verbose request uri https://registry.npmjs.org/react-dom
+50 verbose request no auth needed
+51 info attempt registry request try #1 at 09:12:51
+52 verbose etag W/"582c6e3c-f2a2"
+53 verbose lastModified Wed, 16 Nov 2016 14:33:32 GMT
+54 http request GET https://registry.npmjs.org/react-dom
+55 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+56 verbose request uri https://registry.npmjs.org/draft-js
+57 verbose request no auth needed
+58 info attempt registry request try #1 at 09:12:51
+59 verbose etag W/"57dc85a5-a7aa"
+60 verbose lastModified Fri, 16 Sep 2016 23:52:05 GMT
+61 http request GET https://registry.npmjs.org/draft-js
+62 verbose request uri https://registry.npmjs.org/react
+63 verbose request no auth needed
+64 info attempt registry request try #1 at 09:12:51
+65 verbose etag W/"582ce198-208f4"
+66 verbose lastModified Wed, 16 Nov 2016 22:45:44 GMT
+67 http request GET https://registry.npmjs.org/react
+68 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+69 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+70 info attempt registry request try #2 at 09:13:01
+71 http request GET https://registry.npmjs.org/save
+72 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+73 info attempt registry request try #2 at 09:13:01
+74 verbose etag W/"582c6e3c-f2a2"
+75 verbose lastModified Wed, 16 Nov 2016 14:33:32 GMT
+76 http request GET https://registry.npmjs.org/react-dom
+77 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+78 info attempt registry request try #2 at 09:13:01
+79 verbose etag W/"57dc85a5-a7aa"
+80 verbose lastModified Fri, 16 Sep 2016 23:52:05 GMT
+81 http request GET https://registry.npmjs.org/draft-js
+82 info attempt registry request try #2 at 09:13:01
+83 verbose etag W/"582ce198-208f4"
+84 verbose lastModified Wed, 16 Nov 2016 22:45:44 GMT
+85 http request GET https://registry.npmjs.org/react
+86 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+87 info retry will retry, error on last attempt: TypeError: The header content contains invalid characters
+88 info attempt registry request try #3 at 09:14:01
+89 http request GET https://registry.npmjs.org/save
+90 silly fetchPackageMetaData TypeError: The header content contains invalid characters
+90 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+90 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+90 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+90 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+90 silly fetchPackageMetaData     at Request.start (/Users/alucas/.nvm/versions/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:753:32)
+90 silly fetchPackageMetaData     at Request.end (/Users/alucas/.nvm/versions/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+90 silly fetchPackageMetaData     at end (/Users/alucas/.nvm/versions/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:580:14)
+90 silly fetchPackageMetaData     at Immediate._onImmediate (/Users/alucas/.nvm/versions/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:594:7)
+90 silly fetchPackageMetaData     at tryOnImmediate (timers.js:543:15)
+90 silly fetchPackageMetaData     at processImmediate [as _immediateCallback] (timers.js:523:5)
+90 silly fetchPackageMetaData  error for save TypeError: The header content contains invalid characters
+90 silly fetchPackageMetaData     at ClientRequest.OutgoingMessage.setHeader (_http_outgoing.js:348:11)
+90 silly fetchPackageMetaData     at new ClientRequest (_http_client.js:85:14)
+90 silly fetchPackageMetaData     at Object.exports.request (http.js:31:10)
+90 silly fetchPackageMetaData     at Object.exports.request (https.js:199:15)
+90 silly fetchPackageMetaData     at Request.start (/Users/alucas/.nvm/versions/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:753:32)
+90 silly fetchPackageMetaData     at Request.end (/Users/alucas/.nvm/versions/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:1418:10)
+90 silly fetchPackageMetaData     at end (/Users/alucas/.nvm/versions/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:580:14)
+90 silly fetchPackageMetaData     at Immediate._onImmediate (/Users/alucas/.nvm/versions/v6.2.1/lib/node_modules/npm/node_modules/request/request.js:594:7)
+90 silly fetchPackageMetaData     at tryOnImmediate (timers.js:543:15)
+90 silly fetchPackageMetaData     at processImmediate [as _immediateCallback] (timers.js:523:5)
+91 info attempt registry request try #3 at 09:14:01
+92 verbose etag W/"582c6e3c-f2a2"
+93 verbose lastModified Wed, 16 Nov 2016 14:33:32 GMT
+94 http request GET https://registry.npmjs.org/react-dom
+95 silly get cb [ 304, undefined ]
+96 verbose etag https://registry.npmjs.org/react-dom from cache
+97 verbose get saving react-dom to /Users/alucas/.npm/registry.npmjs.org/react-dom/.cache.json
+98 verbose correctMkdir /Users/alucas/.npm correctMkdir not in flight; initializing
+99 info attempt registry request try #3 at 09:14:01
+100 verbose etag W/"57dc85a5-a7aa"
+101 verbose lastModified Fri, 16 Sep 2016 23:52:05 GMT
+102 http request GET https://registry.npmjs.org/draft-js
+103 info attempt registry request try #3 at 09:14:01
+104 verbose etag W/"582ce198-208f4"
+105 verbose lastModified Wed, 16 Nov 2016 22:45:44 GMT
+106 http request GET https://registry.npmjs.org/react
+107 silly get cb [ 304, undefined ]
+108 verbose etag https://registry.npmjs.org/draft-js from cache
+109 verbose get saving draft-js to /Users/alucas/.npm/registry.npmjs.org/draft-js/.cache.json
+110 verbose correctMkdir /Users/alucas/.npm correctMkdir not in flight; initializing
+111 silly get cb [ 304, undefined ]
+112 verbose etag https://registry.npmjs.org/react from cache
+113 verbose get saving react to /Users/alucas/.npm/registry.npmjs.org/react/.cache.json
+114 verbose correctMkdir /Users/alucas/.npm correctMkdir not in flight; initializing
+115 silly rollbackFailedOptional Starting
+116 silly rollbackFailedOptional Finishing
+117 silly runTopLevelLifecycles Starting
+118 silly runTopLevelLifecycles Finishing
+119 silly install printInstalled
+120 verbose stack Error: ENOENT: no such file or directory, open '/Users/alucas/Code/Own/AutocompleteEditor/—'
+120 verbose stack     at Error (native)
+121 verbose cwd /Users/alucas/Code/Own/AutocompleteEditor
+122 error Darwin 15.6.0
+123 error argv "/Users/alucas/.nvm/versions/v6.2.1/bin/node" "/Users/alucas/.nvm/versions/v6.2.1/bin/npm" "install" "—" "save" "draft-js" "react" "react-dom"
+124 error node v6.2.1
+125 error npm  v3.9.3
+126 error path /Users/alucas/Code/Own/AutocompleteEditor/—
+127 error code ENOENT
+128 error errno -2
+129 error syscall open
+130 error enoent ENOENT: no such file or directory, open '/Users/alucas/Code/Own/AutocompleteEditor/—'
+131 error enoent ENOENT: no such file or directory, open '/Users/alucas/Code/Own/AutocompleteEditor/—'
+131 error enoent This is most likely not a problem with npm itself
+131 error enoent and is related to npm not being able to find a file.
+132 verbose exit [ -2, true ]
